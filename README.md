@@ -1,4 +1,4 @@
 # ProgUzytkowe
 Krystian Koz³owski
-##Opis projektu
+#Opis projektu
 opis
