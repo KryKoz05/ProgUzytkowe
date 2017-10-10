@@ -1,4 +1,4 @@
 # ProgUzytkowe max
 Krystian Koz³owski
-#Opis projektu
+# Opis projektu
 opis xdddd
