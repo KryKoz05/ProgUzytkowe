@@ -1,0 +1,49 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[MeX]{polski}
+\usepackage[utf8]{inputenc}
+
+%opening
+\title{Wzory matematyczne}
+\author{Krystian Kozłowski}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Zapis wzorów i algorytmów w latex
+\end{abstract}
+
+\section{Wzory}
+$$\lim_{n \to \infty}
+\sum_{k=1}^n \frac{1}{k^2}
+= \frac{\pi^2}{6}$$
+
+
+$$\pi_{i=2}^{n=i^2} = \frac{lim_{n \to 4}(1+ \frac{1}{n})^n}{\sum k\frac{1}{n}}$$
+
+$$\int_{2}^{\infty} \frac{1}{\log_{2}{x}}dx = \frac{1}{x} \sin x  =  {1- \cos x}^{2}
+$$
+$$
+\mathbf{\left( \begin{array}{cccc}
+a_{11} & a_{12} & \ldots & a_{1K} \\
+a_{21} & a_{22} & \ldots & a_{2K} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{K1} & a_{K2} & \ldots & a_{KK} 
+\end{array} \right) * 
+\left( \begin{array}{c}
+x_{1} \\
+x_{2} \\
+\vdots \\
+x_{K} \\
+\end{array} \right)
+
+} =
+\left( \begin{array}{c}
+b_{1} \\
+b_{2} \\ 
+\vdots \\
+b_{K} \\
+\end{array} \right)
+     $$
+\end{document}
